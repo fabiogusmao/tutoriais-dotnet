@@ -14,3 +14,5 @@ else
     greater = b;
 
 Console.WriteLine($"O maior número é {greater}");
+
+Console.ReadKey();

@@ -14,7 +14,7 @@
             "args": [],
             "cwd": "${workspaceFolder}/01_csharp_basico/exercicios01/solucoes/exercicio01",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
-            "console": "integratedTerminal",
+            "console": "externalTerminal",
             "stopAtEntry": false
         },
         {

@@ -28,7 +28,7 @@ Da primera vez que fizer isso o Visual Studio Code perguntará se você deseja i
 
 Para ler valores do console dentro do Visual Stdudio Code é preciso habilitar o terminal externo ou integrado. Configure isso pelo menu `Executar`=> `Abrir as Configurações` e alterando a seguinte linha:
 ```json
-"console": "integratedTerminal",
+"console": "externalTerminal",
 ```
 
 ## 0) .NET In-Browser Tutorial

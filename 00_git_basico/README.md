@@ -11,7 +11,7 @@ Após o download, inicie o instalador e siga os passos deixando todas as opçõe
 
 ## Criando uma Conta no GitHub
 
-O [GitHub](https://github.com/) é a maior comunidade de código aberto da atualidade. Muitos projetos ficam hospedados nele, e os componentes mais usados em várias linguagensde programação tem seus fontes, documentação, e suporte baseados no GitHub.
+O [GitHub](https://github.com/) é a maior comunidade de código aberto da atualidade. Muitos projetos ficam hospedados nele, e os componentes mais usados em várias linguagens de programação tem seus fontes, documentação, e suporte baseados no GitHub.
 
 Crie uma conta neste site para hospedar os trabalhos que desenvolverá ao longo dos tutoriais.
 
