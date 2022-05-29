@@ -81,6 +81,31 @@ Caso queira que o comando `git reset` volte os arquivos ao estado original do co
 git reset ID --hard
 ```
 
+07) Git Ignore
+
+É possível especificar regras para o Git ignorar o versionamento de arquivos e pastas com determinados nomes ou extensões. Isso é desejá porque quando criamos programas em C# ou outras linguagens costumam ser gerados diretórios e arquivos que não fazem parte do fonte, como os EXEs e DLLs compilados, os objetos intermediários da compilação etc. 
+
+Para ignorar tais arquivos crie um arquivo chamado `.gitignore` na pasta de nível mais alto que desejamos que obedecça essa regra:
+
+```bash
+# Cria diretório bin para nosso executável
+mkdir bin
+# Simula criação de um programa dentro de bin
+touch bin/program.exe
+# prova que program.exe existe dentro de bin
+ls bin
+git status
+# cria arquivo .gitignore com conteúdo "bin"
+echo "bin" >> ".gitignore"
+cat .gitignore
+git status
+# adiciona .gitignore ao stage
+git add .gitignore
+# cria commit de gitignore
+git commit -m "Ignorando pasta bin"
+git log
+```
+
 ## Conclusão
 
 Aprendemos aqui os comandos mais básicos do Git. No [próximo exercício](./02_trabalhando_com_branches.md) vamos apender como criar e manipular branches.
