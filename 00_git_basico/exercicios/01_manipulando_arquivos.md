@@ -4,7 +4,7 @@ Neste exercício guiado faremos as operações mais básicas com arquivos no Git
 
 ## 1) Criando um arquivo
 
-Você pode criar o arquivo da menria que quiser, usando o Windows Explorer, uma IDE como o Visual Studio ou pelo terminal. para exemplificar, simplesmente digite o seguinte comando no Git Bash:
+Você pode criar o arquivo da meneira que quiser, usando o Windows Explorer, uma IDE como o Visual Studio ou pelo terminal. para exemplificar, simplesmente digite o seguinte comando no Git Bash:
 
 ```bash
 ls -a
@@ -81,9 +81,9 @@ Caso queira que o comando `git reset` volte os arquivos ao estado original do co
 git reset ID --hard
 ```
 
-07) Git Ignore
+## 07) Git Ignore
 
-É possível especificar regras para o Git ignorar o versionamento de arquivos e pastas com determinados nomes ou extensões. Isso é desejá porque quando criamos programas em C# ou outras linguagens costumam ser gerados diretórios e arquivos que não fazem parte do fonte, como os EXEs e DLLs compilados, os objetos intermediários da compilação etc. 
+É possível especificar regras para o Git ignorar o versionamento de arquivos e pastas com determinados nomes ou extensões. Isso é desejável porque quando criamos programas em C# ou outras linguagens costumam ser gerados diretórios e arquivos que não fazem parte do fonte, como os EXEs e DLLs compilados, os objetos intermediários da compilação etc. 
 
 Para ignorar tais arquivos crie um arquivo chamado `.gitignore` na pasta de nível mais alto que desejamos que obedecça essa regra:
 

@@ -1,6 +1,4 @@
-﻿using System;
-
-Console.Write("Digite número 1: ");
+﻿Console.Write("Digite número 1: ");
 var a = int.Parse(Console.ReadLine());
 
 Console.Write("Digite número 2: ");

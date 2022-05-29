@@ -22,7 +22,7 @@ Com a conta criada no GitHub, clique no seu retrato no canto superior direito da
 ## Clonando Seu Repositório
 
 1) Na página do seu repositório haverá um botão verde (sempre os botões verdes!) escrito *Code*. Clique nele e copie a URL que aparece na caixa de texto ou simplesmente clique no ícone de copiar ao lado.
-2) Escolha uma pasta no seu computador (ex: `C:\Projetos`) e clique com o botão direito do mouse dentro dela. No menu de contexto haverá uma opção *Open Git Bash*, que abrirá um terminal já posicionado nesta pasta de projeto.
+2) Escolha uma pasta no seu computador (ex: `C:\Projetos`) e clique com o botão direito do mouse dentro dela. No menu de contexto haverá uma opção *Git Bash Here*, que abrirá um terminal já posicionado nesta pasta de projeto.
 3) Digite `git clone`, dê um espaço e pressione a tecla *Insert* no seu teclado para colar a URL do repositório que você copiou previamente. A linha deverá ficar algo assim:
 
 ```bash
