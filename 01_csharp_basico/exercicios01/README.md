@@ -8,7 +8,7 @@ Instale os seguintes programas:
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Download .NET](https://dotnet.microsoft.com/en-us/download)
-- 
+
 Execute os seguintes comandos para criar e executar um projeto C# básico.
 
 - Abra o Visual Studio Code
