@@ -39,7 +39,7 @@ git commit -a -m "Modifica arquivo hello.txt"
 git log
 ```
 
-## 2) Alterando entre as branches
+## 2) Alternando entre as branches
 
 Suponha que no meio do trabalho surja a necessidade de você consultar alguma coisa na branch principal. Você pode fazer isso simplesmente usando o comando `git checkout`, desta vez sem o `-b` já que não desejamos criar uma nova branch:
 

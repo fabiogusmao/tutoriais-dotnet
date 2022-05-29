@@ -83,4 +83,4 @@ git reset ID --hard
 
 ## Conclusão
 
-Aprendemos aqui os comandos mais básicos do Git. No próximo exercício vamos apender como criar e manipular branches.
+Aprendemos aqui os comandos mais básicos do Git. No [próximo exercício](./02_trabalhando_com_branches.md) vamos apender como criar e manipular branches.
