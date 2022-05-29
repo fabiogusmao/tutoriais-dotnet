@@ -39,6 +39,8 @@ Antes decomeçarmos, visite o site [.NET In-Browser Tutorial](https://dotnet.mic
 
 Escreva um programa que utilize a função [`Console.ReadLine()`](https://docs.microsoft.com/pt-br/dotnet/api/system.console.readline?view=net-6.0) para ler 2 valores digitados pelo usuário e a função [`int.Parse(texto)`](https://docs.microsoft.com/pt-br/dotnet/api/system.int32.parse?view=net-6.0) para extrair seu valor numérico, um por vez, e determinar qual é o maior.
 
+[Ver Solução](./solucoes/exercicio01/Program.cs)
+
 ## 2) Maior Número - While
 
 Modifique o programa do exercício anterior para ler números do console indefinidamente até o usuário digitar `fim` e, a cada iteração, indicar qual foi o maior número lido até o momento.
