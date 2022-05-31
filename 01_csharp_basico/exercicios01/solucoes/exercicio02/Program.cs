@@ -1,15 +1,20 @@
 ﻿
-string input;
+bool quit = false;
 int greater = int.MinValue;
 do
 {
     Console.Write("Digite um número: ");
-    input = Console.ReadLine();
-    if(input == "fim")
-        break;
-    int number = int.Parse(input);
-    if (number > greater)
-        greater = number;
+    var input = Console.ReadLine();
+    if (input == "fim")
+    {
+        quit = true;
+    }
+    else
+    {
+        int number = int.Parse(input);
+        if (number > greater)
+            greater = number;
 
-    Console.WriteLine($"Maior número até o momento: {greater}");
-} while (true);
+        Console.WriteLine($"Maior número até o momento: {greater}");
+    }
+} while (!quit);
