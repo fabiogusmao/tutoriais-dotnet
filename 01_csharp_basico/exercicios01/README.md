@@ -52,7 +52,7 @@ Modifique o programa anterior para usar a função [`int.TryParse()`](https://do
 ## 4) Maior Número - For
 
 Modifique o programa anterior para que o usuário digite previamente quantos números serão inseridos.
-- Não aceite mais a instrução `sair` e só informe o maior valor digitado no final do programa.
+- Não aceite mais a instrução `fim` e só informe o maior valor digitado no final do programa.
 - Utilize a instrução `for`ao invés da instrução `while`, já que agora sabemos a quantidade de números que deve ser lida.
 - Caso o usuário insira um número inválido, o programa deve continuar perguntando aquele número.
 
@@ -62,10 +62,10 @@ Modifique o programa do exercício anterior para que a mensagem de erro quando o
 
 ## 6) Maior Número - Array
 
-Modifique o programa do exercício anterior para que os números seja inseridos de uma única vez, separados por espaços (ex: `1 2 7 4 5`).
+Modifique o programa do exercício anterior para que os números sejam inseridos de uma única vez, separados por espaços (ex: `1 2 7 4 5`).
 - Se alguma entrada não for válida, exiba um texto de erro e encerre o programa.
 
-**DICA:** utilize o método [`StringSplit()`](https://docs.microsoft.com/pt-br/dotnet/api/system.string.split?view=net-6.0) para separar os números digitados pelo usuário. Aprenderemos mais sobre a classe `String` na próxima lista.
+**DICA:** utilize o método [`String.Split()`](https://docs.microsoft.com/pt-br/dotnet/api/system.string.split?view=net-6.0) para separar os números digitados pelo usuário. Aprenderemos mais sobre a classe `String` na próxima lista.
 
 ## 7) Maior Número - Funções
 
