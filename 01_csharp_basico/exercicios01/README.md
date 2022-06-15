@@ -49,7 +49,7 @@ Modifique o programa do exercício anterior para ler números do console indefin
 
 Modifique o programa anterior para usar a função [`int.TryParse()`](https://docs.microsoft.com/pt-br/dotnet/api/system.int32.tryparse?view=net-6.0) para tratar entradas inválidas. Informe o problema ao usuário caso o texto digitado não seja um número válido nem a palavra `fim`.
 
-## 4) Maior Número: For
+## 4) Maior Número - For
 
 Modifique o programa anterior para que o usuário digite previamente quantos números serão inseridos.
 - Não aceite mais a instrução `sair` e só informe o maior valor digitado no final do programa.
